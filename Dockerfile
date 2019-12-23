@@ -1,5 +1,5 @@
 FROM python:3.6
-
+FROM ibm-cos-sdk
 ADD Hello.py /
 
 RUN pip install pystrich
